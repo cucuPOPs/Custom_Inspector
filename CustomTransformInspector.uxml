@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Local">
+        <Style src="CustomTransformInspector.uss" />
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <ui:Label text="Local" style="-unity-font-style: bold;&#10;-unity-text-align: middle-center;&#10;margin-left: -10px;&#10;" />
+            <ui:Button text="Reset All" name="LocalReset" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;flex-wrap: no-wrap;&#10;">
+            <uie:Vector3Field label="Position" name="Vector3Position" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+            <ui:Button text="R" name="RB" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <uie:Vector3Field label="Rotation" name="Vector3Rotation" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+            <ui:Button text="R" name="GB" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <uie:Vector3Field label="Scale" name="Vector3Scale" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+            <ui:Button text="R" name="BB" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="World">
+        <Style src="CustomTransformInspector.uss" />
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <ui:Label text="World" style="-unity-font-style: bold;&#10;-unity-text-align: middle-center;&#10;margin-left: -10px;&#10;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;flex-wrap: no-wrap;&#10;">
+            <uie:Vector3Field label="Position" name="Vector3WorldPosition" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <uie:Vector3Field label="Rotation" name="Vector3WorldRotation" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;&#10;">
+            <uie:Vector3Field label="Scale" name="Vector3WorldScale" style="flex-grow: 1;&#10;margin-left: 0;&#10;margin-right: 0;&#10;margin-top: 0;&#10;margin-bottom: 0;&#10;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
